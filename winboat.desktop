@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WinBoat Launcher
+Comment=One-click launcher for WinBoat (Windows-in-a-container)
+Exec=/bin/bash -c "$HOME/winboat-launcher.sh"
+Icon=application-windows
+Terminal=true
+Type=Application
+Categories=System;Utility;

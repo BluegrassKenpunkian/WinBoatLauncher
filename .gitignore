@@ -1,0 +1,22 @@
+# --- General Operating System Files ---
+# Ignore Thumbs.db (Windows)
+Thumbs.db
+# Ignore Mac OS X resource forks
+.DS_Store
+
+# --- Text Editor / IDE Temporary Files ---
+# Ignore common backup files (e.g., created by vim, nano)
+*~
+*.swp
+*.bak
+
+# --- Linux-Specific Files ---
+# Files created when a user extracts a tar.gz package via GUI
+._*
+
+# --- Project-Specific Ignores ---
+# In a desktop environment, the system may create a link or copy of the .desktop file
+# that you don't want to track if it's outside the repo structure.
+# Also, ignore the actual AppImage, as it is a large binary the user provides.
+/winboat.AppImage
+/Virtualizations/winboat.AppImage
